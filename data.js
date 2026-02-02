@@ -248,7 +248,7 @@ const lessons = [
       "The ternary operator is a shorthand alternative to if-else statements. It evaluates a condition and returns one of two values depending on whether the condition is true or false.",
     starterCode:
       "public class Main {\n    public static void main(String[] args) {\n\n        // TODO: Declare an integer variable named number\n\n        // TODO: Use the ternary operator to check if the number is even or odd\n\n        // TODO: Store the result in a String variable\n\n        // TODO: Print the result\n\n    }\n}",
-    expectedOutput: "EVEN",
+    expectedOutput: "Even",
     commonMistakes: [
       "Forgetting to store the result of the ternary operator",
       "Confusing the order of true and false values",
@@ -282,7 +282,7 @@ const lessons = [
       "The enhanced switch statement (introduced in Java 14) allows multiple values per case and uses arrow syntax (->) to simplify conditional logic. It is a cleaner alternative to long if-else chains.",
     starterCode:
       "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n\n        Scanner scanner = new Scanner(System.in);\n\n        // TODO: Ask the user to enter a day of the week\n\n        // TODO: Use an enhanced switch statement to check weekday or weekend\n\n        // TODO: Handle invalid day input using default case\n\n        scanner.close();\n    }\n}",
-    expectedOutput: "It is a weekday 😩",
+    expectedOutput: "It is a weekday",
     commonMistakes: [
       "Using old switch syntax with break",
       "Forgetting that switch is case-sensitive for Strings",
@@ -316,7 +316,7 @@ const lessons = [
       "Logical operators allow programs to evaluate multiple conditions at once. AND (&&) requires all conditions to be true, OR (||) requires at least one condition to be true, and NOT (!) reverses a boolean value.",
     starterCode:
       "public class Main {\n    public static void main(String[] args) {\n\n        // TODO: Declare a double variable for temperature\n        // TODO: Declare a boolean variable to indicate if it is sunny\n\n        // TODO: Use logical operators (&&, ||, !) to evaluate weather conditions\n\n        // TODO: Print appropriate weather messages\n\n    }\n}",
-    expectedOutput: "The weather is BAD 😩",
+    expectedOutput: "The weather is bad",
     commonMistakes: [
       "Mixing up && and || conditions",
       "Forgetting operator precedence",
@@ -713,7 +713,9 @@ const lessons = [
       "Inheritance allows one class to inherit fields and methods from another class. A child class extends a parent class, forming an IS-A relationship. This promotes code reuse and hierarchical class design.",
     starterCode:
       "public class Main {\n    public static void main(String[] args) {\n\n        // TODO: Create objects of Dog, Cat, and Plant classes\n\n    }\n}\n\nclass Organism {\n\n    // TODO: Declare a variable to represent life status\n\n    // TODO: Initialize the variable using a constructor\n\n}\n\nclass Plant extends Organism {\n\n    // TODO: Create a method for photosynthesis\n\n}\n\nclass Animal extends Organism {\n\n    // TODO: Create a method for eating\n\n}\n\nclass Dog extends Animal {\n\n    // TODO: Declare number of lives\n\n    // TODO: Create a method for dog sound\n\n}\n\nclass Cat extends Animal {\n\n    // TODO: Declare number of lives\n\n    // TODO: Create a method for cat sound\n\n}",
-    expectedOutput: "",
+    expectedOutput: 
+           "Dog is alive\nDog is eating\nDog says: Woof\nDog has 1 life\n\nCat is alive\nCat is eating\nCat says: Meow\nCat has 9 lives\n\nPlant is alive\nPlant is doing photosynthesis"
+,
     commonMistakes: [
       "Forgetting to use the extends keyword",
       "Assuming child classes inherit constructors automatically",
@@ -1192,3 +1194,4 @@ const lessons = [
 ];
 
 export default lessons;
+
