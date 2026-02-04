@@ -282,7 +282,7 @@ const lessons = [
       "The enhanced switch (Java 14+) uses arrow syntax (->) and doesn't require 'break' statements. It allows multiple cases per line.\n\nExample:\nint day = 1;\nswitch(day) {\n  case 1, 7 -> System.out.println(\"Weekend\");\n  default -> System.out.println(\"Weekday\");\n}\n\nSolution:\nWeekend",
     starterCode:
       "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n\n        Scanner scanner = new Scanner(System.in);\n\n        // TODO: Ask the user to enter a day of the week\n\n        // TODO: Use an enhanced switch statement to check weekday or weekend\n\n        // TODO: Handle invalid day input using default case\n\n        scanner.close();\n    }\n}",
-    expectedOutput: "It is a weekday 😩",
+    expectedOutput: "It is a weekday",
     commonMistakes: [
       "Using old switch syntax with break",
       "Forgetting that switch is case-sensitive for Strings",
@@ -316,7 +316,7 @@ const lessons = [
       "Logical operators combine booleans: && (AND) requires both true, || (OR) requires one true, ! (NOT) flips the value.\n\nExample:\nboolean sunny = true;\nboolean warm = false;\nif(sunny && !warm) {\n  System.out.println(\"Sunny but cold\");\n}\n\nSolution:\nSunny but cold",
     starterCode:
       "public class Main {\n    public static void main(String[] args) {\n\n        // TODO: Declare a double variable for temperature\n        // TODO: Declare a boolean variable to indicate if it is sunny\n\n        // TODO: Use logical operators (&&, ||, !) to evaluate weather conditions\n\n        // TODO: Print appropriate weather messages\n\n    }\n}",
-    expectedOutput: "The weather is BAD 😩",
+    expectedOutput: "The weather is BAD",
     commonMistakes: [
       "Mixing up && and || conditions",
       "Forgetting operator precedence",
@@ -497,7 +497,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 31,
+    lessonNumber: 30,
     title: "Dynamic Arrays with User Input",
     goal: "Create an array based on user input and populate it using a loop",
     concept:
@@ -514,7 +514,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 32,
+    lessonNumber: 31,
     title: "Linear Search in Arrays",
     goal: "Search for an element in an array using a loop",
     concept:
@@ -531,7 +531,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 33,
+    lessonNumber: 32,
     title: "Variable Arguments (Varargs)",
     goal: "Use varargs to pass a variable number of arguments to a method",
     concept:
@@ -548,7 +548,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 34,
+    lessonNumber: 33,
     title: "2D Arrays in Java",
     goal: "Store and iterate over data using two-dimensional arrays",
     concept:
@@ -566,7 +566,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 35,
+    lessonNumber: 34,
     title: "Quiz Game",
     goal: "Build a quiz game using arrays, loops, and conditional logic",
     concept:
@@ -583,7 +583,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 36,
+    lessonNumber: 35,
     title: "Rock Paper Scissors Game",
     goal: "Build an interactive game using loops, random numbers, arrays, and conditionals",
     concept:
@@ -600,7 +600,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 37,
+    lessonNumber: 36,
     title: "Slot Machine Game",
     goal: "Build a slot machine game using arrays, random numbers, loops, and methods",
     concept:
@@ -617,7 +617,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 38,
+    lessonNumber: 37,
     title: "Objects and Classes",
     goal: "Create objects from a class and access their attributes and methods",
     concept:
@@ -635,7 +635,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 39,
+    lessonNumber: 38,
     title: "Constructors in Java",
     goal: "Initialize objects using constructors and access their attributes and methods",
     concept:
@@ -653,7 +653,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 40,
+    lessonNumber: 39,
     title: "Constructor Overloading",
     goal: "Initialize objects using multiple constructors with different parameters",
     concept:
@@ -671,7 +671,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 41,
+    lessonNumber: 40,
     title: "Arrays of Objects",
     goal: "Store and manipulate multiple objects using an array",
     concept:
@@ -689,7 +689,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 42,
+    lessonNumber: 41,
     title: "Static Variables and Methods",
     goal: "Understand how static variables and methods belong to a class rather than objects",
     concept:
@@ -706,7 +706,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 43,
+    lessonNumber: 42,
     title: "Inheritance",
     goal: "Understand how classes inherit attributes and methods from other classes",
     concept:
@@ -723,7 +723,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 44,
+    lessonNumber: 43,
     title: "Super Keyword",
     goal: "Use the super keyword to access parent class constructors and members",
     concept:
@@ -740,7 +740,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 45,
+    lessonNumber: 44,
     title: "Method Overriding",
     goal: "Understand how subclasses can override methods from a parent class",
     concept:
@@ -758,7 +758,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 46,
+    lessonNumber: 45,
     title: "toString() Method",
     goal: "Override the toString() method to display meaningful object information",
     concept:
@@ -775,7 +775,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 47,
+    lessonNumber: 46,
     title: "Abstract Classes and Methods",
     goal: "Use abstract classes and methods to enforce structure in subclasses",
     concept:
@@ -794,7 +794,7 @@ const lessons = [
   },
 
   {
-    lessonNumber: 48,
+    lessonNumber: 47,
     title: "Interfaces",
     goal: "Implement interfaces to define common behavior across unrelated classes",
     concept:
@@ -812,7 +812,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 49,
+    lessonNumber: 48,
     title: "Polymorphism",
     goal: "Use polymorphism to treat different objects as a common superclass type",
     concept:
@@ -829,7 +829,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 50,
+    lessonNumber: 49,
     title: "Runtime Polymorphism",
     goal: "Understand how method execution is decided at runtime based on object type",
     concept:
@@ -846,7 +846,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 51,
+    lessonNumber: 50,
     title: "Encapsulation",
     goal: "Protect object data using private variables and public getters and setters",
     concept:
@@ -863,7 +863,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 52,
+    lessonNumber: 51,
     title: "Aggregation",
     goal: "Understand aggregation as a has-a relationship between objects",
     concept:
@@ -881,7 +881,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 53,
+    lessonNumber: 52,
     title: "Composition",
     goal: "Understand composition as a part-of relationship between objects",
     concept:
@@ -899,7 +899,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 54,
+    lessonNumber: 53,
     title: "Wrapper Classes",
     goal: "Understand how primitive data types can be converted into objects using wrapper classes",
     concept:
@@ -916,7 +916,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 55,
+    lessonNumber: 54,
     title: "ArrayList",
     goal: "Store and manipulate a dynamic list of objects using ArrayList",
     concept:
@@ -933,7 +933,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 56,
+    lessonNumber: 55,
     title: "Exception Handling",
     goal: "Handle runtime errors gracefully using try, catch, and finally blocks",
     concept:
@@ -950,7 +950,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 57,
+    lessonNumber: 56,
     title: "Writing Files in Java",
     goal: "Write text data to a file using FileWriter and handle I/O exceptions",
     concept:
@@ -967,7 +967,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 58,
+    lessonNumber: 57,
     title: "Reading Files in Java",
     goal: "Read text data from a file line by line using BufferedReader",
     concept:
@@ -985,7 +985,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 59,
+    lessonNumber: 58,
     title: "Playing Audio in Java",
     goal: "Play, stop, reset, and control audio files using Java",
     concept:
@@ -1002,7 +1002,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 60,
+    lessonNumber: 59,
     title: "Hangman Game",
     goal: "Build a complete Hangman game using files, collections, loops, and conditionals",
     concept:
@@ -1019,7 +1019,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 61,
+    lessonNumber: 60,
     title: "Dates and Times in Java",
     goal: "Work with dates, times, timestamps, formatting, and comparisons using the java.time API",
     concept:
@@ -1036,7 +1036,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 62,
+    lessonNumber: 61,
     title: "Anonymous Classes",
     goal: "Use anonymous classes to override behavior without creating a named class",
     concept:
@@ -1053,7 +1053,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 63,
+    lessonNumber: 62,
     title: "Timer and TimerTask",
     goal: "Schedule tasks to run at a fixed time or repeatedly using Timer and TimerTask",
     concept:
@@ -1070,7 +1070,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 64,
+    lessonNumber: 63,
     title: "Countdown Timer",
     goal: "Create a countdown timer using Timer and TimerTask",
     concept:
@@ -1087,7 +1087,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 65,
+    lessonNumber: 64,
     title: "Generics",
     goal: "Create reusable classes that work with different data types using generics",
     concept:
@@ -1104,7 +1104,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 66,
+    lessonNumber: 65,
     title: "HashMap",
     goal: "Store and retrieve data using key-value pairs with HashMap",
     concept:
@@ -1122,7 +1122,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 67,
+    lessonNumber: 66,
     title: "Enums (Enumerations)",
     goal: "Use enums to represent a fixed set of constants safely and clearly",
     concept:
@@ -1139,7 +1139,7 @@ const lessons = [
     difficulty: "medium",
   },
   {
-    lessonNumber: 68,
+    lessonNumber: 67,
     title: "Multithreading with Time Limits",
     goal: "Use a background thread to enforce a time limit while the main thread handles user input",
     concept:
@@ -1156,7 +1156,7 @@ const lessons = [
     difficulty: "hard",
   },
   {
-    lessonNumber: 69,
+    lessonNumber: 68,
     title: "Multithreading (Runnable Interface)",
     goal: "Run background tasks concurrently using threads and the Runnable interface",
     concept:
@@ -1173,7 +1173,7 @@ const lessons = [
     difficulty: "hard",
   },
   {
-    lessonNumber: 70,
+    lessonNumber: 69,
     title: "Alarm Clock Program",
     goal: "Build a real alarm clock using time validation, multithreading, and audio playback",
     concept:
