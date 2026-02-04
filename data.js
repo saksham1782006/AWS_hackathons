@@ -713,7 +713,8 @@ const lessons = [
       "Inheritance (extends) allows a child class to acquire properties of a parent class. It creates an 'Is-A' relationship (e.g., Dog IS-A Animal).\n\nExample:\nclass Animal { void eat() { System.out.println(\"Yum\"); } }\nclass Dog extends Animal {}\nDog d = new Dog();\nd.eat();\n\nSolution:\nYum",
     starterCode:
       "public class Main {\n    public static void main(String[] args) {\n\n        // TODO: Create objects of Dog, Cat, and Plant classes\n\n    }\n}\n\nclass Organism {\n\n    // TODO: Declare a variable to represent life status\n\n    // TODO: Initialize the variable using a constructor\n\n}\n\nclass Plant extends Organism {\n\n    // TODO: Create a method for photosynthesis\n\n}\n\nclass Animal extends Organism {\n\n    // TODO: Create a method for eating\n\n}\n\nclass Dog extends Animal {\n\n    // TODO: Declare number of lives\n\n    // TODO: Create a method for dog sound\n\n}\n\nclass Cat extends Animal {\n\n    // TODO: Declare number of lives\n\n    // TODO: Create a method for cat sound\n\n}",
-    expectedOutput: "",
+    expectedOutput:
+      "The plant is growing\nThe dog eats\nThe dog barks\nThe cat eats\nThe cat meows",
     commonMistakes: [
       "Forgetting to use the extends keyword",
       "Assuming child classes inherit constructors automatically",
@@ -730,7 +731,8 @@ const lessons = [
       "'super' refers to the parent class. super() calls the parent's constructor, and super.method() calls a parent's method.\n\nExample:\nclass A { A(){ System.out.println(\"A\"); } }\nclass B extends A { B(){ super(); } }\nnew B();\n\nSolution:\nA",
     starterCode:
       "public class Main {\n    public static void main(String[] args) {\n\n        // TODO: Create Person, Student, and Employee objects\n\n    }\n}\n\nclass Person {\n\n    // TODO: Declare first and last name variables\n\n    // TODO: Create a constructor to initialize them\n\n    // TODO: Create a method to display the full name\n\n}\n\nclass Student extends Person {\n\n    // TODO: Declare a GPA variable\n\n    // TODO: Use super() to initialize name fields\n\n    // TODO: Create a method to display GPA\n\n}\n\nclass Employee extends Person {\n\n    // TODO: Declare a salary variable\n\n    // TODO: Use super() to initialize name fields\n\n    // TODO: Create a method to display salary\n\n}",
-    expectedOutput: "",
+    expectedOutput:
+      "John Doe\nJane Doe\nGPA: 3.8\nBob Smith\nSalary: $50000",
     commonMistakes: [
       "Forgetting to call super() in subclass constructors",
       "Trying to access private parent variables directly",
@@ -906,7 +908,7 @@ const lessons = [
       "Wrapper classes (Integer, Double, Boolean) let you treat primitives like Objects. 'Autoboxing' converts int to Integer automatically.\n\nExample:\nInteger num = 10; // Autoboxing\nint n = num;      // Unboxing\nSystem.out.println(num + n);\n\nSolution:\n20",
     starterCode:
       "public class Main {\n    public static void main(String[] args) {\n\n        // TODO: Demonstrate autoboxing using wrapper classes\n\n        // TODO: Demonstrate unboxing back to primitive types\n\n    }\n}",
-    expectedOutput: "",
+    expectedOutput: "100\n100",
     commonMistakes: [
       "Unnecessarily wrapping primitives when objects are not required",
       "Confusing autoboxing with type casting",
@@ -1026,7 +1028,8 @@ const lessons = [
       "LocalDate and LocalTime represent dates/times. DateTimeFormatter allows custom display formats.\n\nExample:\nLocalDate today = LocalDate.now();\nSystem.out.println(today);\n\nSolution:\n(e.g., 2023-10-27)",
     starterCode:
       "import java.time.Instant;\nimport java.time.LocalDate;\nimport java.time.LocalDateTime;\nimport java.time.LocalTime;\nimport java.time.format.DateTimeFormatter;\n\npublic class Main {\n    public static void main(String[] args) {\n\n        // TODO: Print the current date\n\n        // TODO: Print the current time\n\n        // TODO: Print the current date and time\n\n        // TODO: Print the current UTC timestamp\n\n        // TODO: Format date and time using DateTimeFormatter\n\n        // TODO: Compare two LocalDateTime objects\n\n    }\n}",
-    expectedOutput: "",
+    expectedOutput:
+      "2025-01-01\n12:00:00\n2025-01-01T12:00:00\n2025-01-01T12:00:00Z\nfalse",
     commonMistakes: [
       "Using the old Date and Calendar classes instead of java.time",
       "Assuming LocalDateTime contains timezone information",
