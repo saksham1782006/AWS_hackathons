@@ -74,24 +74,22 @@
     ],
     "difficulty": "medium"
   },
-  {
-    "lessonNumber": 6,
-    "title": "Conditional Statements (if / else)",
-    "goal": "Use if, else if, and else statements to make decisions based on user input",
-    "concept": "Conditional statements allow a program to execute different blocks of code depending on whether a condition is true or false. Java supports if, else if, and else for multi-condition decision making. 
-
-[Image of Java if-else statement flowchart]
-\n\nExample:\nint score = 85;\nif (score >= 90) {\n  System.out.println(\"A\");\n} else if (score >= 80) {\n  System.out.println(\"B\");\n} else {\n  System.out.println(\"C\");\n}\n\nOutput:\nB",
-    "starterCode": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n\n        Scanner scanner = new Scanner(System.in);\n\n        // TODO: Ask the user for their name\n        // TODO: Ask the user for their age\n        // TODO: Ask the user if they are a student (true/false)\n\n        // TODO: Check if the name is empty and respond accordingly\n\n        // TODO: Use if-else-if to classify age group\n\n        // TODO: Check if the user is a student\n\n        scanner.close();\n    }\n}",
-    "expectedOutput": "Hello Alex!\nYou are an adult!\nYou are a student!",
-    "commonMistakes": [
-      "Using == instead of .equals() or isEmpty() for String comparison",
-      "Incorrect condition order in else-if ladder",
-      "Not handling empty input",
-      "Forgetting to close the Scanner"
-    ],
-    "difficulty": "medium"
-  },
+ {
+  "lessonNumber": 6,
+  "title": "Conditional Statements (if / else)",
+  "goal": "Use if, else if, and else statements to make decisions based on user input",
+  "concept": "Conditional statements allow a program to execute different blocks of code depending on whether a condition is true or false. Java supports if, else if, and else for multi-condition decision making. \n\n[attachment_0](attachment)\n\nExample:\nint score = 85;\nif (score >= 90) {\n  System.out.println(\"A\");\n} else if (score >= 80) {\n  System.out.println(\"B\");\n} else {\n  System.out.println(\"C\");\n}\n\nOutput:\nB",
+  "starterCode": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n\n        Scanner scanner = new Scanner(System.in);\n\n        // TODO: Ask the user for their name\n        // TODO: Ask the user for their age\n        // TODO: Ask the user if they are a student (true/false)\n\n        // TODO: Check if the name is empty and respond accordingly\n\n        // TODO: Use if-else-if to classify age group\n\n        // TODO: Check if the user is a student\n\n        scanner.close();\n    }\n}",
+  "expectedOutput": "Hello Alex!\nYou are an adult!\nYou are a student!",
+  "commonMistakes": [
+    "Using == instead of .equals() or isEmpty() for String comparison",
+    "Incorrect condition order in else-if ladder",
+    "Not handling empty input",
+    "Forgetting to close the Scanner"
+  ],
+  "difficulty": "medium"
+}
+ ,
   {
     "lessonNumber": 7,
     "title": "Random Numbers and Booleans",
